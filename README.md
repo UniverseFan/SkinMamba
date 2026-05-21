@@ -1,7 +1,7 @@
 # SkinMamba
 This is the official code repository for **"SkinMamba: Segmentation and Classification of Skin Cancer with Multi-level Context Understanding" (IJCNN 2025)**. 
 
-[![Paper]([https://img.shields.io/badge/IJCNN_2025-Paper-red)](https://doi.org/YOUR_DOI_HERE](https://ieeexplore.ieee.org/abstract/document/11227563))
+[![Paper]([https://img.shields.io/badge/IJCNN_2025-Paper-red)](https://doi.org/YOUR_DOI_HERE]([https://ieeexplore.ieee.org/abstract/document/11227563](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11227563&tag=1)))
 
 ## Key Contributions
 1. **Dual-Task Architecture (SkinMamba):** We introduce **SkinMamba**, a comprehensive joint framework comprising two specialized modules: **MVMNet** tailored for dense skin lesion segmentation and **AMNet** designed for precise classification.
