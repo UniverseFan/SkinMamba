@@ -4,10 +4,10 @@ This is the official code repository for **"SkinMamba: Segmentation and Classifi
 [![Paper]([https://img.shields.io/badge/IJCNN_2025-Paper-red)](https://doi.org/YOUR_DOI_HERE](https://ieeexplore.ieee.org/abstract/document/11227563))
 
 ## Key Contributions
-Compared to conventional architectural baselines, **SkinMamba** introduces specific optimization for skin lesion imaging under complex medical scenarios:
-1. **Multi-level Context Understanding:** Advanced State Space Models (Mamba) tailored for robust feature extraction and long-range dependency modeling without quadratic complexity.
-2. **High-Quality Low-Light Corpus:** An independently constructed, high-quality low-light dataset specifically designed for benchmarking robust skin cancer segmentation under poor illumination.
-3. **Full-Link Physical Noise Model:** Integration of a realistic physical noise pipeline to simulate and enhance low-light medical imaging degradation, closing the gap between laboratory training and real-world clinical deployment.
+1. **Dual-Task Architecture (SkinMamba):** We introduce **SkinMamba**, a comprehensive joint framework comprising two specialized modules: **MVMNet** tailored for dense skin lesion segmentation and **AMNet** designed for precise classification.
+2. **Core Feature Extractor (SkinBlock):** We design **SkinBlock** as the foundational block of both MVMNet and AMNet. By capturing multi-level context understanding efficiently, the SkinBlock serves as the core engine for robust deep feature representation.
+3. **Robust Low-Light Benchmarking:** Leveraging our independently constructed high-quality low-light corpus and a full-link physical noise model, we evaluate SkinMamba under rigorous real-world degradation scenarios. 
+4. **Outstanding Performance:** Extensive experiments conducted on the ISIC and Synapse datasets demonstrate that SkinMamba delivers outstanding, competitive performance in both medical image segmentation and classification tasks.
 
 ---
 
